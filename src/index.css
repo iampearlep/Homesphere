@@ -140,3 +140,6 @@
 .accordion .inactive {
   display: none;
 }
+.cta {
+  background: linear-gradient(235deg, rgba(50,61,214,1) 67%, rgba(46,110,235,1) 83%);
+}

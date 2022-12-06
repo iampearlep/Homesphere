@@ -52,11 +52,11 @@ const Accordion = () => {
               {accordion === index ? 
                 (
                   <>
-                     <MdArrowDropUp className="w-10 h-5 text-blue-700" />
+                     <MdArrowDropUp className="w-10 h-5 text-blue-700 cursor-pointer" />
                   </>
                 ) : (
                   <>
-                  <MdArrowDropDown className="w-10 h-5 text-blue-700" />
+                  <MdArrowDropDown className="w-10 h-5 text-blue-700 cursor-pointer" />
                   </>
                 )
               }</div>
