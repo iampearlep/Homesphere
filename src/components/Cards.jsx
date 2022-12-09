@@ -7,7 +7,7 @@ const Cards = () => {
   return (
     <div className='mx-auto container mt-20'>
      <div className='flex flex-col text-center md:text-left md:ml-10 mb-10'>
-     <span className='text-orange-500 w-1/2 text-md'>Best Choice</span>
+     <span className='text-orange-500 text-md'>Best Choice</span>
       <h2 className='text-3xl md:text-4xl font-bold text-primary'>Popular Residences<span className='text-orange-500'>.</span></h2>
      </div>
      <div className='grid grid-cols-1 gap-7 md:grid-cols-3 justify-items-center'>

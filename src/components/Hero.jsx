@@ -6,26 +6,26 @@ const Hero = () => {
   return (
      <div className='bg-black text-white'>
     <div className='mx-auto flex container mt-24'>
-        <div className='px-5 md:px-24 md:w-7/12'>
+        <div className='flex flex-col justify-center items-center md:justify-start md:items-start px-5 md:px-24 md:w-7/12'>
             <h1 className='text-center text-5xl md:text-6xl md:text-left font-bold w-full tracking-wide mb-10'>Discover<br /> Most Suitable Property</h1>
-            <p className='text-gray-400 text-center w-full md:w-9/12 mb-8'>Find a variety of property that suit you very easily, forget all difficulties in finding a residence for you</p>
-            <form>
+            <p className='text-gray-400 text-center md:text-left w-full md:w-9/12 mb-8'>Find a variety of property that suit you very easily, forget all difficulties in finding a residence for you</p>
+            <form className='w-11/12'>
                 <MdLocationOn className='absolute text-blue-700 z-20 mt-5 ml-5 w-6 h-6 ' />
                 <input type="text" placeholder=' Search by location...' className=' w-full md:w-2/5 md:absolute z-10 px-10 py-4 rounded-md border-4'/>
-                <button className='absolute text-md text-white font-semibold px-8 py-3 bg-blue-700 z-10 rounded-md -ml-32 md:ml-96 mt-2 shadow-2xl'>Search</button>
+                <button className='absolute text-md text-white font-semibold px-5 md:px-8 py-3 bg-blue-700 z-10 rounded-md -ml-24 md:ml-96 mt-2 shadow-2xl'>Search</button>
             </form>
-            <div className='flex container justify-center items-center mt-10 md:mt-36 md:w-2/3 w-full h-24 mb-6'>
+            <div className='container flex flex-row justify-center items-center text-center  md:text-left w-full mt-10 md:mt-32 md:w-2/3 md:justify-start md:items-start h-24 mb-10 md:mb-3'>
                 <div>
                     <h2 className='font-semibold text-3xl'>9K<span className='text-orange-500'>+</span></h2>
-                    <p className='text-gray-400'>Premium Product</p>
+                    <p className='text-gray-400 w-11/12'>Premium Product</p>
                 </div>
                 <div>
                     <h2 className='font-semibold text-3xl'>2K<span className='text-orange-500'>+</span></h2>
-                    <p className='text-gray-400'>Happy Customer</p>
+                    <p className='text-gray-400 w-11/12'>Happy Customer</p>
                 </div>
                 <div>
                     <h2 className='font-semibold text-3xl '>28<span className='text-orange-500'>+</span></h2>
-                    <p className='text-gray-400'>Awards Winning</p>
+                    <p className='text-gray-400 w-11/12'>Awards Winning</p>
                 </div>
             </div>
         </div>
