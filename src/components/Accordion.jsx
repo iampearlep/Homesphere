@@ -38,7 +38,7 @@ const Accordion = () => {
 
   return (
     <div className="container flex flex-col justify-center items-center md:justify-start md:items-start ">
-      <div className="accordion w-11/12 md:w-10/12 ">
+      <div data-aos="zoom-out" data-aos-offset="200" data-aos-easing="ease-in-out" className="accordion w-11/12 md:w-10/12 ">
         {dataCollection.map((item, index) => (
           <div key={index} onClick={() => toggleAccordion(index)}>
             <div className=" flex justify-between items-center px-6 py-3 rounded-md border border-gray-100 mb-3 text-primary text-sm font-bold">
