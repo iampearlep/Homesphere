@@ -4,9 +4,9 @@ import heroImg from '../assets/hero.jpg';
  
 const Hero = () => {
   return (
-     <div className='bg-black text-white'>
+     <div className='bg-black text-white overflow-x-hidden'>
     <div className='mx-auto flex container mt-24'>
-        <div className='flex flex-col justify-center items-center md:justify-start md:items-start px-5 md:px-24 md:w-7/12'>
+        <div className='flex flex-col justify-center items-center md:justify-start md:items-start px-5 md:px-24 md:w-7/12 overflow-hidden'>
             <h1 data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-out" className='text-center text-5xl md:text-6xl md:text-left font-bold w-full tracking-wide mb-10'>Discover<br /> Most Suitable Property</h1>
             <p data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-out" className='text-gray-400 text-center md:text-left w-full md:w-9/12 mb-8'>Find a variety of property that suit you very easily, forget all difficulties in finding a residence for you</p>
             <form className='w-11/12'>

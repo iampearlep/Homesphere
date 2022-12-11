@@ -6,7 +6,7 @@ import {HiVideoCamera} from "react-icons/hi";
 
 const Boxes = () => {
   return (
-    <div className='container grid gap-4 grid-cols-2 w-10/12'>
+    <div className='container grid gap-4 grid-cols-2 w-10/12 overflow-hidden'>
         <div data-aos="zoom-in" data-aos-offset="300" data-aos-easing="ease-in-out" className='flex flex-col items-center justify-center rounded-md shadow-sm py-6 hover:shadow-xl hover:duration-500 hover:delay-200 hover:ease-in-out'>
             <div className='flex items-center justify-center space-x-3 mb-6'>
                 <MdPhoneInTalk className='w-6 h-6 text-blue-700' />
